@@ -1,0 +1,30 @@
+{
+  "version": "1.0.0",
+  "description": "Compare OTC exchange rates from 100+ exchangers — find the best rate for cash-out in your city. See real-time rates when swapping tokens.",
+  "proposedName": "Kurslog Rate Tracker",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kurslog/kurslog-metamask-snap"
+  },
+  "source": {
+    "shasum": "7y9bdC9i6KziEej0Eq08M1Z9KVH9fQoQd9CcaZORCFc=",
+    "location": {
+      "npm": {
+        "filePath": "dist/bundle.js",
+        "packageName": "@kurslog/metamask-snap",
+        "registry": "https://registry.npmjs.org",
+        "iconPath": "images/icon.svg"
+      }
+    }
+  },
+  "initialPermissions": {
+    "snap_dialog": {},
+    "snap_getPreferences": {},
+    "snap_manageState": {},
+    "endowment:network-access": {},
+    "endowment:page-home": {},
+    "endowment:transaction-insight": {}
+  },
+  "platformVersion": "6.24.0",
+  "manifestVersion": "0.1"
+}

@@ -1,0 +1,47 @@
+{
+  "name": "@kurslog/metamask-snap",
+  "version": "1.0.0",
+  "description": "Compare OTC exchange rates from 100+ exchangers — find the best rate for cash-out in your city",
+  "keywords": [
+    "metamask",
+    "snap",
+    "exchange-rates",
+    "otc",
+    "crypto",
+    "kurslog",
+    "cash-out"
+  ],
+  "homepage": "https://kurslog.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kurslog/kurslog-metamask-snap"
+  },
+  "license": "MIT",
+  "main": "dist/bundle.js",
+  "files": [
+    "dist/",
+    "snap.manifest.json",
+    "images/icon.svg"
+  ],
+  "scripts": {
+    "build": "mm-snap build",
+    "build:clean": "rimraf dist && mm-snap build",
+    "start": "mm-snap watch",
+    "lint": "eslint src/ --ext .ts,.tsx",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@metamask/snaps-cli": "^6.0.0",
+    "@metamask/snaps-jest": "^8.0.0",
+    "@metamask/snaps-sdk": "^6.0.0",
+    "@types/jest": "^29.5.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.8.1",
+    "rimraf": "^5.0.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
