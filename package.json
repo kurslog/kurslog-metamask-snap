@@ -1,6 +1,6 @@
 {
   "name": "@kurslog/metamask-snap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Compare OTC exchange rates from 100+ exchangers — find the best rate for cash-out in your city",
   "keywords": [
     "metamask",
